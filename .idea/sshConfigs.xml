@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig authType="PASSWORD" host="119.29.114.218" id="97bd3d6f-6a18-473d-b59a-587cf63aa163" port="22" customName="TencentCloud" nameFormat="CUSTOM" />
+      <sshConfig authType="PASSWORD" host="202.194.40.130" id="55323a2d-8fb4-4e7e-ba9b-b002b7a5327e" port="22" customName="SchoolCloud" nameFormat="CUSTOM" />
+      <sshConfig authType="PASSWORD" host="119.29.114.218" id="78523482-33df-459b-b64c-4d98dabafa70" port="22" customName="TencentCloud" nameFormat="CUSTOM" />
+      <sshConfig authType="PASSWORD" host="202.194.40.130" id="4cb0700b-b5a7-4b09-b406-34e5b0aef823" port="22" customName="SchoolCloud" nameFormat="CUSTOM" />
+      <sshConfig authType="PASSWORD" host="119.29.114.218" id="372a54e4-bc33-4d5a-bfa0-83d193807d46" port="22" customName="TencentCloud" nameFormat="CUSTOM" />
+      <sshConfig authType="PASSWORD" host="202.194.40.130" id="e129d6cc-da82-4f0a-8467-894b1fcd3793" port="22" customName="SchoolCloud" nameFormat="CUSTOM" />
+      <sshConfig authType="PASSWORD" host="119.29.114.218" id="03258594-2f91-4fb0-b16e-c636b2914a72" port="22" customName="TencentCloud" nameFormat="CUSTOM" />
+      <sshConfig authType="PASSWORD" host="202.194.40.130" id="61903471-5e40-43f2-a4f0-d455a501d847" port="22" customName="SchoolCloud" nameFormat="CUSTOM" />
+      <sshConfig authType="PASSWORD" host="119.29.114.218" id="1d2eb24a-7326-48d5-9c9b-630cb774aa7f" port="22" customName="TencentCloud" nameFormat="CUSTOM" />
+      <sshConfig authType="PASSWORD" host="202.194.40.130" id="586708b3-9f79-46e8-9049-7861347a7e97" port="22" customName="SchoolCloud" nameFormat="CUSTOM" />
+      <sshConfig authType="PASSWORD" host="119.29.114.218" id="e918e64c-769e-4a6c-a94b-f547194daa85" port="22" customName="TencentCloud" nameFormat="CUSTOM" />
+      <sshConfig authType="PASSWORD" host="202.194.40.130" id="1298560e-e476-4ec0-9071-6578be76e3ba" port="22" customName="SchoolCloud" nameFormat="CUSTOM" />
+      <sshConfig authType="PASSWORD" host="119.29.114.218" id="72393075-ccab-43bf-9a6a-80c2dea4dcd1" port="22" customName="TencentCloud" nameFormat="CUSTOM" />
+      <sshConfig authType="PASSWORD" host="202.194.40.130" id="04b53cf9-7749-4e40-869e-6e5276f88e7f" port="22" customName="SchoolCloud" nameFormat="CUSTOM" />
+      <sshConfig authType="PASSWORD" host="119.29.114.218" id="a23bac40-8c2b-428d-9afc-d1a21659eaf8" port="22" customName="TencentCloud" nameFormat="CUSTOM" />
+      <sshConfig authType="PASSWORD" host="202.194.40.130" id="6b67bb90-0907-4286-9b13-486bc98ef1f0" port="22" customName="SchoolCloud" nameFormat="CUSTOM" />
+      <sshConfig authType="PASSWORD" host="119.29.114.218" id="4ccfdced-2e39-430f-8da8-37cc76a0e5b7" port="22" customName="TencentCloud" nameFormat="CUSTOM" />
+      <sshConfig authType="PASSWORD" host="202.194.40.130" id="5a5b0243-9229-44ce-b274-d3b495a1f771" port="22" customName="SchoolCloud" nameFormat="CUSTOM" />
+      <sshConfig authType="PASSWORD" host="119.29.114.218" id="ab802fc2-8f11-46bc-9586-ca545521efea" port="22" customName="TencentCloud" nameFormat="CUSTOM" />
+      <sshConfig authType="PASSWORD" host="202.194.40.130" id="682ff0cd-0fcf-4a5a-898b-1cd4bb260c65" port="22" customName="SchoolCloud" nameFormat="CUSTOM" />
+      <sshConfig authType="PASSWORD" host="119.29.114.218" id="11795c9a-d05a-416f-8672-26e93afeb561" port="22" customName="TencentCloud" nameFormat="CUSTOM" />
+      <sshConfig authType="PASSWORD" host="202.194.40.130" id="5164fdc0-e9c1-46a3-8dfd-5611272b8a33" port="22" customName="SchoolCloud" nameFormat="CUSTOM" />
+    </configs>
+  </component>
+</project>

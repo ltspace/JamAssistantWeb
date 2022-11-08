@@ -1,0 +1,1565 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+
+    <title>山东大学（威海）国奖助手</title>
+
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport'/>
+    <meta name="viewport" content="width=device-width"/>
+
+    <link rel="apple-touch-icon" sizes="76x76" href="/assets/img/logo.png"/>
+    <link rel="icon" type="image/png" href="/assets/img/logo.png"/>
+
+    <!--     Fonts and icons     -->
+    <link rel="stylesheet" type="text/css"
+          href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css"/>
+
+    <!-- CSS Files -->
+    <link href="/assets/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="/assets/css/material-bootstrap-wizard.css" rel="stylesheet"/>
+
+    <!-- CSS Just for demo purpose, don't include it in your project -->
+    <link href="/assets/css/demo.css" rel="stylesheet"/>
+</head>
+
+<body>
+
+<div class="image-container set-full-height" style="background-image: url('/assets/img/wizard-profile.jpg')">
+    <a href="https://www.wh.sdu.edu.cn/">
+        <div class="logo-container">
+            <div class="logo">
+                <img src="/assets/img/school_logo.png">
+            </div>
+            <div class="brand" style="width: 50%">
+                <img src="/assets/img/school_word.png">
+            </div>
+        </div>
+    </a>
+
+    <!--   Big container   -->
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-8 col-sm-offset-2">
+                <!--      Wizard container        -->
+                <div class="wizard-container">
+                    <div class="card wizard-card" data-color="red" id="wizardProfile">
+                        <form action="/" method="post">
+                            <div class="wizard-header">
+                                <h3 class="wizard-title">果酱助手</h3>
+                                <h5>山东大学（威海）2022国家奖学金填写助手</h5>
+                            </div>
+                            <div class="wizard-navigation">
+                                <ul>
+                                    <li><a href="#about" data-toggle="tab">个人基本信息</a></li>
+                                    <li><a href="#award" data-toggle="tab">学习及获奖情况</a></li>
+                                    <li><a href="#reason" data-toggle="tab">申请理由</a></li>
+                                </ul>
+                            </div>
+
+                            <div class="tab-content">
+                                <div class="tab-pane" id="about">
+                                    <div class="row">
+                                        <div class="col-sm-10 col-sm-offset-1">
+                                            <div class="input-group">
+                                                <span class="input-group input-group-addon">
+                                                    <label>编号</label>
+                                                </span>
+                                                <div class="form-group label-floating">
+                                                    <label class="control-label">
+                                                        <small>请输入编号</small>
+                                                    </label>
+                                                    <input name="stu_no" type=number class="form-control"
+                                                           required style="width: 110px">
+                                                </div>
+                                                <span class="input-group input-group-addon">
+                                                    <label style="width:50px;text-align:right;">学号</label>
+                                                </span>
+                                                <div class="form-group label-floating">
+                                                    <label class="control-label">
+                                                        <small>请输入学号</small>
+                                                    </label>
+                                                    <input name="stu_sno" type="text" class="form-control"
+                                                           required style="width: 120px;">
+                                                </div>
+                                                <span class="input-group input-group-addon">
+                                                <label>院系</label>
+                                                </span>
+                                                <div class="form-group label-floating">
+                                                    <label class="control-label">请输入学院</label>
+                                                    <select name="stu_dept" class="form-control" required>
+                                                        <option value=""></option>
+                                                        <option value="机电与信息工程学院"> 机电与信息工程学院</option>
+                                                        <option value="商学院"> 商学院</option>
+                                                        <option value="法学院(威海)"> 法学院(威海)</option>
+                                                        <option value="数学与统计学院"> 数学与统计学院</option>
+                                                        <option value="空间科学与物理学院"> 空间科学与物理学院</option>
+                                                        <option value="海洋学院"> 海洋学院</option>
+                                                        <option value="东北亚学院"> 东北亚学院</option>
+                                                        <option value="文化传播学院"> 文化传播学院</option>
+                                                        <option value="翻译学院"> 翻译学院</option>
+                                                        <option value="艺术学院(威海)"> 艺术学院(威海)</option>
+                                                        <option value="澳国立联合理学院"> 澳国立联合理学院</option>
+
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-sm-10 col-sm-offset-1">
+                                            <div class="input-group">
+                                                <span class="input-group input-group-addon">
+                                                    <label>姓名</label>
+                                                </span>
+                                                <div class="form-group label-floating">
+                                                    <label class="control-label">
+                                                        <small>请输入姓名</small>
+                                                    </label>
+                                                    <input name="stu_name" type="text" style="width:140px;"
+                                                           required class="form-control">
+                                                </div>
+                                                <span class="input-group input-group-addon">
+                                                    <label style="width:35px; text-align:right;">性别</label>
+                                                </span>
+                                                <div class="form-group label-floating">
+                                                    <label class="control-label"><small>请输入性别</small></label>
+                                                    <select name="stu_sex" class="form-control" required
+                                                            style="width:70px;">
+                                                        <option value=""></option>
+                                                        <option value="男"> 男</option>
+                                                        <option value="女"> 女</option>
+                                                    </select>
+                                                </div>
+                                                <span class="input-group input-group-addon">
+                                                <label style="width:90px;text-align:right;">出生年月</label>
+                                                </span>
+                                                <div class="form-group label-floating">
+                                                    <label class="control-label">例：2001年02月
+                                                    </label>
+                                                    <input name="stu_bir" type="text" style="width:140px;"
+                                                           required class="form-control"/>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-sm-10 col-sm-offset-1">
+                                            <div class="input-group">
+                                                <span class="input-group input-group-addon">
+                                                    <label>政治面貌</label>
+                                                </span>
+                                                <div class="form-group label-floating" style="width:115px;">
+                                                    <label class="control-label">请输入政治面貌</label>
+                                                    <select name="stu_poli" class="form-control" required>
+                                                        <option value=""></option>
+                                                        <option value="中共党员"> 中共党员</option>
+                                                        <option value="中共预备党员"> 中共预备党员</option>
+                                                        <option value="共青团员"> 共青团员</option>
+                                                        <option value="群众"> 群众</option>
+                                                    </select>
+                                                </div>
+                                                <span class="input-group input-group-addon">
+                                                    <label style="width:35px;text-align:right;">民族</label>
+                                                </span>
+                                                {#                                                <span class="input-group input-group-addon" >#}
+                                                {#                                                    <label class="control-label" style="width:35px; text-align:right;">民族</label>#}
+                                                {#                                                </span>#}
+                                                <div class="form-group label-floating">
+                                                    <label class="control-label">请输入民族</label>
+                                                    <select name="stu_nation" class="form-control"
+                                                            style="width:70px;" required>
+                                                        <option value=""></option>
+                                                        <option value="汉族">汉族</option>
+                                                        <option value="蒙古族">蒙古族</option>
+                                                        <option value="彝族">彝族</option>
+                                                        <option value="侗族">侗族</option>
+                                                        <option value="哈萨克族">哈萨克族</option>
+                                                        <option value="畲族">畲族</option>
+                                                        <option value="纳西族">纳西族</option>
+                                                        <option value="仫佬族">仫佬族</option>
+                                                        <option value="仡佬族">仡佬族</option>
+                                                        <option value="怒族">怒族</option>
+                                                        <option value="保安族">保安族</option>
+                                                        <option value="鄂伦春族">鄂伦春族</option>
+                                                        <option value="回族">回族</option>
+                                                        <option value="壮族">壮族</option>
+                                                        <option value="瑶族">瑶族</option>
+                                                        <option value="傣族">傣族</option>
+                                                        <option value="高山族">高山族</option>
+                                                        <option value="景颇族">景颇族</option>
+                                                        <option value="羌族">羌族</option>
+                                                        <option value="锡伯族">锡伯族</option>
+                                                        <option value="乌孜别克族">乌孜别克族</option>
+                                                        <option value="裕固族">裕固族</option>
+                                                        <option value="赫哲族">赫哲族</option>
+                                                        <option value="藏族">藏族</option>
+                                                        <option value="布依族">布依族</option>
+                                                        <option value="白族">白族</option>
+                                                        <option value="黎族">黎族</option>
+                                                        <option value="拉祜族">拉祜族</option>
+                                                        <option value="柯尔克孜族">柯尔克孜族</option>
+                                                        <option value="布朗族">布朗族</option>
+                                                        <option value="阿昌族">阿昌族</option>
+                                                        <option value="俄罗斯族">俄罗斯族</option>
+                                                        <option value="京族">京族</option>
+                                                        <option value="门巴族">门巴族</option>
+                                                        <option value="维吾尔族">维吾尔族</option>
+                                                        <option value="朝鲜族">朝鲜族</option>
+                                                        <option value="土家族">土家族</option>
+                                                        <option value="傈僳族">傈僳族</option>
+                                                        <option value="水族">水族</option>
+                                                        <option value="土族">土族</option>
+                                                        <option value="撒拉族">撒拉族</option>
+                                                        <option value="普米族">普米族</option>
+                                                        <option value="鄂温克族">鄂温克族</option>
+                                                        <option value="塔塔尔族">塔塔尔族</option>
+                                                        <option value="珞巴族">珞巴族</option>
+                                                        <option value="苗族">苗族</option>
+                                                        <option value="满族">满族</option>
+                                                        <option value="哈尼族">哈尼族</option>
+                                                        <option value="佤族">佤族</option>
+                                                        <option value="东乡族">东乡族</option>
+                                                        <option value="达斡尔族">达斡尔族</option>
+                                                        <option value="毛南族">毛南族</option>
+                                                        <option value="塔吉克族">塔吉克族</option>
+                                                        <option value="德昂族">德昂族</option>
+                                                        <option value="独龙族">独龙族</option>
+                                                        <option value="基诺族">基诺族</option>
+                                                    </select>
+                                                </div>
+                                                <span class="input-group input-group-addon">
+                                                <label style="width:86px;text-align:right;">入学时间</label>
+                                                </span>
+                                                <div class="form-group label-floating">
+                                                    <label class="control-label">
+                                                        请输入入学时间
+                                                    </label>
+                                                    <select name="stu_month" class="form-control"
+                                                            style="width:145px;" required>
+                                                        <option value=""></option>
+                                                        <option value="2018年09月">2018年09月</option>
+                                                        <option value="2019年09月">2019年09月</option>
+                                                        <option value="2020年09月">2020年09月</option>
+                                                        <option value="2021年09月">2021年09月</option>
+                                                    </select>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-sm-10 col-sm-offset-1">
+                                            <div class="input-group">
+                                                <span class="input-group input-group-addon">
+                                                    <label>专业</label>
+                                                </span>
+                                                <div class="form-group label-floating">
+                                                    <label class="control-label">
+                                                        <small>请输入所在专业</small>
+                                                    </label>
+                                                    <select name="stu_major" class="form-control"
+                                                            required style="width:150px;">
+                                                        <option value=""></option>
+                                                        <option value="朝鲜语">
+                                                            朝鲜语
+                                                            </option>
+                                                            <option value="电子科学与技术">
+                                                            电子科学与技术
+                                                            </option>
+                                                            <option value="电子信息工程">
+                                                            电子信息工程
+                                                            </option>
+                                                            <option value="法学">
+                                                            法学
+                                                            </option>
+                                                            <option value="法学（党内法规与监察法学）">
+                                                            法学（党内法规与监察法学）
+                                                            </option>
+                                                            <option value="法学（日本法）">
+                                                            法学（日本法）
+                                                            </option>
+                                                            <option value="法学（新闻法学）">
+                                                            法学（新闻法学）
+                                                            </option>
+                                                            <option value="法学+英语双学位班（法学院）">
+                                                            法学+英语双学位班（法学院）
+                                                            </option>
+                                                            <option value="法学+英语双学位专业">
+                                                            法学+英语双学位专业
+                                                            </option>
+                                                            <option value="法学与行政管理（政治学与行政学）">
+                                                            法学与行政管理（政治学与行政学）
+                                                            </option>
+                                                            <option value="翻译">
+                                                            翻译
+                                                            </option>
+                                                            <option value="工商管理（创新创业方向）">
+                                                            工商管理（创新创业方向）
+                                                            </option>
+                                                            <option value="工商管理（数字营销方向）">
+                                                            工商管理（数字营销方向）
+                                                            </option>
+                                                            <option value="工商管理类">
+                                                            工商管理类
+                                                            </option>
+                                                            <option value="国际经济与贸易">
+                                                            国际经济与贸易
+                                                            </option>
+                                                            <option value="国际政治">
+                                                            国际政治
+                                                            </option>
+                                                            <option value="国际政治+国际经济双学位实验班">
+                                                            国际政治+国际经济双学位实验班
+                                                            </option>
+                                                            <option value="国际政治+国际经济与贸易双学位实验班">
+                                                            国际政治+国际经济与贸易双学位实验班
+                                                            </option>
+                                                            <option value="海洋科学（海洋化学）">
+                                                            海洋科学（海洋化学）
+                                                            </option>
+                                                            <option value="海洋科学（海洋生物学）">
+                                                            海洋科学（海洋生物学）
+                                                            </option>
+                                                            <option value="海洋科学（海洋药学）">
+                                                            海洋科学（海洋药学）
+                                                            </option>
+                                                            <option value="海洋科学（资源与环境）">
+                                                            海洋科学（资源与环境）
+                                                            </option>
+                                                            <option value="海洋资源开发技术（海洋生态工程）">
+                                                            海洋资源开发技术（海洋生态工程）
+                                                            </option>
+                                                            <option value="海洋资源开发技术（海洋生物工程）">
+                                                            海洋资源开发技术（海洋生物工程）
+                                                            </option>
+                                                            <option value="海洋资源开发技术（海洋药物工程）">
+                                                            海洋资源开发技术（海洋药物工程）
+                                                            </option>
+                                                            <option value="汉语言文学">
+                                                            汉语言文学
+                                                            </option>
+                                                            <option value="汉语言文学专业">
+                                                            汉语言文学专业
+                                                            </option>
+                                                            <option value="环境设计（风景园林方向）">
+                                                            环境设计（风景园林方向）
+                                                            </option>
+                                                            <option value="环境设计（公共艺术设计）">
+                                                            环境设计（公共艺术设计）
+                                                            </option>
+                                                            <option value="环境设计（景观）">
+                                                            环境设计（景观）
+                                                            </option>
+                                                            <option value="会计学">
+                                                            会计学
+                                                            </option>
+                                                            <option value="会计学（国际实验班）">
+                                                            会计学（国际实验班）
+                                                            </option>
+                                                            <option value="机器人工程">
+                                                            机器人工程
+                                                            </option>
+                                                            <option value="机械设计制造及其自动化">
+                                                            机械设计制造及其自动化
+                                                            </option>
+                                                            <option value="机械设计制造及其自动化（中澳合作办学）">
+                                                            机械设计制造及其自动化（中澳合作办学）
+                                                            </option>
+                                                            <option value="计算机科学与技术">
+                                                            计算机科学与技术
+                                                            </option>
+                                                            <option value="计算机科学与技术（未来网络）">
+                                                            计算机科学与技术（未来网络）
+                                                            </option>
+                                                            <option value="计算机科学与技术（中澳合作办学）">
+                                                            计算机科学与技术（中澳合作办学）
+                                                            </option>
+                                                            <option value="金融（保险）">
+                                                            金融（保险）
+                                                            </option>
+                                                            <option value="金融（证券、银行方向）专业">
+                                                            金融（证券、银行方向）专业
+                                                            </option>
+                                                            <option value="金融学（保险方向）">
+                                                            金融学（保险方向）
+                                                            </option>
+                                                            <option value="金融学（证券、银行方向）">
+                                                            金融学（证券、银行方向）
+                                                            </option>
+                                                            <option value="金融学（中澳合作办学）">
+                                                            金融学（中澳合作办学）
+                                                            </option>
+                                                            <option value="经济学类">
+                                                            经济学类
+                                                            </option>
+                                                            <option value="空间科学与技术">
+                                                            空间科学与技术
+                                                            </option>
+                                                            <option value="人工智能">
+                                                            人工智能
+                                                            </option>
+                                                            <option value="人力资源管理">
+                                                            人力资源管理
+                                                            </option>
+                                                            <option value="日语">
+                                                            日语
+                                                            </option>
+                                                            <option value="软件工程">
+                                                            软件工程
+                                                            </option>
+                                                            <option value="生物科学">
+                                                            生物科学
+                                                            </option>
+                                                            <option value="市场营销">
+                                                            市场营销
+                                                            </option>
+                                                            <option value="视觉传达（品牌设计方向）">
+                                                            视觉传达（品牌设计方向）
+                                                            </option>
+                                                            <option value="视觉传达设计">
+                                                            视觉传达设计
+                                                            </option>
+                                                            <option value="数学类">
+                                                            数学类
+                                                            </option>
+                                                            <option value="数学与应用数学">
+                                                            数学与应用数学
+                                                            </option>
+                                                            <option value="数字媒体技术">
+                                                            数字媒体技术
+                                                            </option>
+                                                            <option value="通信工程">
+                                                            通信工程
+                                                            </option>
+                                                            <option value="通信工程（量子信息工程）">
+                                                            通信工程（量子信息工程）
+                                                            </option>
+                                                            <option value="统计学">
+                                                            统计学
+                                                            </option>
+                                                            <option value="统计学（数据科学与人工智能）">
+                                                            统计学（数据科学与人工智能）
+                                                            </option>
+                                                            <option value="舞蹈编导">
+                                                            舞蹈编导
+                                                            </option>
+                                                            <option value="舞蹈编导（表演教育）">
+                                                            舞蹈编导（表演教育）
+                                                            </option>
+                                                            <option value="物理学">
+                                                            物理学
+                                                            </option>
+                                                            <option value="物流管理（供应链管理方向）">
+                                                            物流管理（供应链管理方向）
+                                                            </option>
+                                                            <option value="新闻学">
+                                                            新闻学
+                                                            </option>
+                                                            <option value="新闻学（法治新闻传播）">
+                                                            新闻学（法治新闻传播）
+                                                            </option>
+                                                            <option value="新闻学专业">
+                                                            新闻学专业
+                                                            </option>
+                                                            <option value="信息与计算科学">
+                                                            信息与计算科学
+                                                            </option>
+                                                            <option value="音乐学">
+                                                            音乐学
+                                                            </option>
+                                                            <option value="应用化学">
+                                                            应用化学
+                                                            </option>
+                                                            <option value="应用物理学">
+                                                            应用物理学
+                                                            </option>
+                                                            <option value="英语（英德双语）">
+                                                            英语（英德双语）
+                                                            </option>
+                                                            <option value="英语（英法双语）">
+                                                            英语（英法双语）
+                                                            </option>
+                                                            <option value="英语（英法双语方向）">
+                                                            英语（英法双语方向）
+                                                            </option>
+                                                            <option value="英语（英日双语）">
+                                                            英语（英日双语）
+                                                            </option>
+                                                            <option value="英语+国际经济与贸易">
+                                                            英语+国际经济与贸易
+                                                            </option>
+                                                            <option value="英语语言文学">
+                                                            英语语言文学
+                                                            </option>
+                                                            <option value="智能制造工程">
+                                                            智能制造工程
+                                                            </option>
+                                                            <option value="自动化">
+                                                            自动化
+                                                            </option>
+                                                    </select>
+                                                </div>
+
+                                                <span class="input-group input-group-addon">
+                                                    <label style="text-align:right;">学制</label>
+                                                </span>
+
+                                                <div class="form-group label-floating" style="width:70px;">
+                                                    <label class="control-label">
+                                                        <small>请输入学制</small>
+                                                    </label>
+                                                    <select name="stu_len" class="form-control">
+                                                        <option value=""></option>
+                                                        <option value="四年"> 四年制</option>
+                                                        <option value="五年"> 五年制</option>
+                                                    </select>
+                                                </div>
+                                                <span class="input-group input-group-addon">
+                                                <label style="width:87px;text-align:right;">联系电话</label>
+                                                </span>
+                                                <div class="form-group label-floating">
+                                                    <label class="control-label">
+                                                        <small>请输入联系方式</small>
+                                                    </label>
+                                                    <input name="stu_tel" type="text" class="form-control" required>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-sm-10 col-sm-offset-1">
+                                            <div class="input-group">
+                                                <span class="input-group input-group-addon">
+                                                <label>身份证号码</label>
+                                                </span>
+                                                <div class="form-group label-floating">
+                                                    <label class="control-label">
+                                                        <small>请输入身份证号码</small>
+                                                    </label>
+                                                    <input name="stu_id" type="text" class="form-control" required>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="tab-pane" id="award">
+                                    <h4 class="info-text"> 学习情况 </h4>
+                                    <div class="row">
+                                        <div class="col-sm-10 col-sm-offset-1">
+                                            <div class="input-group">
+                                                <span class="input-group input-group-addon">
+                                                    <label>成绩排名</label>
+                                                </span>
+                                                <input name="stu_p1" type="number" class="form-control"
+                                                       required style="width: 40px">
+                                                <span class="input-group input-group-addon">
+                                                    <label>/</label>
+                                                </span>
+                                                <input name="stu_p2" type="number" class="form-control"
+                                                       required style="width: 40px">
+
+                                                       <span class="input-group input-group-addon">
+                                                        <label style="width:80px; text-align:right;">是否综合排名</label>
+                                                    </span>
+                                                    <div class="form-group label-floating">
+                                                        {% comment %} <label class="control-label"><small>请输入性别</small></label> {% endcomment %}
+                                                        <select name="stu_p7" class="form-control" required
+                                                                style="width:40px;">
+                                                            <option value=""></option>
+                                                            <option value="是"> 是</option>
+                                                            <option value="否"> 否</option>
+                                                        </select>
+                                                    </div>
+
+                                                <span
+                                                        class="input-group input-group-addon">
+                                                    <label style="width: 70px ;text-align:right;">综合排名</label>
+                                                </span>
+                                                <input name="stu_p3" type="number" class="form-control"
+                                                       style="width: 40px">
+                                                <span class="input-group input-group-addon">
+                                                    <label>/</label>
+                                                </span>
+                                                <input name="stu_p4" type="number" class="form-control"
+                                                       style="width: 40px">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-sm-10 col-sm-offset-1">
+                                            <div class="input-group">
+                                                <span class="input-group input-group-addon">
+                                                    <label>必修课</label>
+                                                </span>
+                                                <input name="stu_p5" type="number" class="form-control"
+                                                       required style="width: 40px">
+                                                <span class="input-group input-group-addon">
+                                                    <label>门，其中及格以上</label>
+                                                </span>
+                                                <input name="stu_p6" type="number" class="form-control"
+                                                       required style="width: 40px">
+                                                <span class="input-group input-group-addon">
+                                                    <label style="width: 500px;text-align:left; ">门.</label>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <h4 class="info-text"> 获奖情况 </h4>
+
+                                    <div class="row">
+                                        <div class="col-sm-10 col-sm-offset-1">
+                                            <div class="input-group">
+                                                <span class="input-group input-group-addon">
+                                                    <label>奖项一  </label>
+                                                </span>
+                                                <div class="form-group label-floating" style="width:115px;">
+                                                    <div class="form-group label-floating">
+                                                        <div class="form-group label-floating">
+                                                            <label class="control-label">Award Name</label>
+                                                            <select name="stu_awardname1" class="form-control"
+                                                                    style="width:500px"
+                                                                    required>
+                                                                <option value="无">无</option>
+                                                                <option value="2019山东大学十佳共青团员">
+                                                                    山东大学十佳共青团员（2019.04）
+                                                                    </option>
+                                                                    <option value="2019山东省高等学校优秀学生干部">
+                                                                    山东省高等学校优秀学生干部（2019.04）
+                                                                    </option>
+                                                                    <option value="2019山东省高等学校优秀学生">
+                                                                    山东省高等学校优秀学生（2019.04）
+                                                                    </option>
+                                                                    <option value="2019山东大学优秀共青团员">
+                                                                    山东大学优秀共青团员（2019.05）
+                                                                    </option>
+                                                                    <option value="2019山东大学优秀学生干部">
+                                                                    山东大学优秀学生干部（2019.09）
+                                                                    </option>
+                                                                    <option value="2019山东大学军训优秀学员">
+                                                                    山东大学军训优秀学员（2019.09）
+                                                                    </option>
+                                                                    <option value="2019山东大学学业奖 三等">
+                                                                    山东大学学业奖 三等（2019.09）
+                                                                    </option>
+                                                                    <option value="2019山东大学学业奖 二等">
+                                                                    山东大学学业奖 二等（2019.09）
+                                                                    </option>
+                                                                    <option value="2019山东大学特长奖">
+                                                                    山东大学特长奖（2019.09）
+                                                                    </option>
+                                                                    <option value="2019山东大学学业奖 一等">
+                                                                    山东大学学业奖 一等（2019.09）
+                                                                    </option>
+                                                                    <option value="2019山东大学校级三好学生">
+                                                                    山东大学校级三好学生（2019.09）
+                                                                    </option>
+                                                                    <option value="2019国家奖学金">
+                                                                    国家奖学金（2019.12）
+                                                                    </option>
+                                                                    <option value="2019国家励志奖学金">
+                                                                    国家励志奖学金（2019.12）
+                                                                    </option>
+                                                                    <option value="2019山东大学校长奖">
+                                                                    山东大学校长奖（2019.12）
+                                                                    </option>
+                                                                    <option value="2019山东大学十佳班长">
+                                                                    山东大学十佳班长（2019.12）
+                                                                    </option>
+                                                                    <option value="2020山东大学十佳共青团员">
+                                                                    山东大学十佳共青团员（2020.04）
+                                                                    </option>
+                                                                    <option value="2020山东省高等学校优秀学生干部">
+                                                                    山东省高等学校优秀学生干部（2020.04）
+                                                                    </option>
+                                                                    <option value="2020山东省高等学校优秀学生">
+                                                                    山东省高等学校优秀学生（2020.04）
+                                                                    </option>
+                                                                    <option value="2020山东大学优秀共青团员">
+                                                                    山东大学优秀共青团员（2020.05）
+                                                                    </option>
+                                                                    <option value="2020山东大学学业奖 三等">
+                                                                    山东大学学业奖 三等（2020.09）
+                                                                    </option>
+                                                                    <option value="2020山东大学学业奖 二等">
+                                                                    山东大学学业奖 二等（2020.09）
+                                                                    </option>
+                                                                    <option value="2020山东大学学业奖 一等">
+                                                                    山东大学学业奖 一等（2020.09）
+                                                                    </option>
+                                                                    <option value="2020山东大学特长奖">
+                                                                    山东大学特长奖（2020.09）
+                                                                    </option>
+                                                                    <option value="2020山东大学校级三好学生">
+                                                                    山东大学校级三好学生（2020.09）
+                                                                    </option>
+                                                                    <option value="2020山东大学优秀学生干部">
+                                                                    山东大学优秀学生干部（2020.09）
+                                                                    </option>
+                                                                    <option value="2020国家奖学金">
+                                                                    国家奖学金（2020.12）
+                                                                    </option>
+                                                                    <option value="2020国家励志奖学金">
+                                                                    国家励志奖学金（2020.12）
+                                                                    </option>
+                                                                    <option value="2020山东大学校长奖">
+                                                                    山东大学校长奖（2020.12）
+                                                                    </option>
+                                                                    <option value="2020山东大学十佳班长">
+                                                                    山东大学十佳班长（2020.12）
+                                                                    </option>
+                                                                    <option value="2021山东省高等学校优秀学生干部">
+                                                                    山东省高等学校优秀学生干部（2021.04）
+                                                                    </option>
+                                                                    <option value="2021山东大学十佳共青团员">
+                                                                    山东大学十佳共青团员（2021.04）
+                                                                    </option>
+                                                                    <option value="2021山东省高等学校优秀学生">
+                                                                    山东省高等学校优秀学生（2021.04）
+                                                                    </option>
+                                                                    <option value="2021山东大学优秀共青团员">
+                                                                    山东大学优秀共青团员（2021.05）
+                                                                    </option>
+                                                                    <option value="2021山东大学学业奖 二等">
+                                                                    山东大学学业奖 二等（2021.09）
+                                                                    </option>
+                                                                    <option value="2021山东大学学业奖 一等">
+                                                                    山东大学学业奖 一等（2021.09）
+                                                                    </option>
+                                                                    <option value="2021山东大学学业奖 三等">
+                                                                    山东大学学业奖 三等（2021.09）
+                                                                    </option>
+                                                                    <option value="2021山东大学特长奖">
+                                                                    山东大学特长奖（2021.09）
+                                                                    </option>
+                                                                    <option value="2021山东大学校级三好学生 ">
+                                                                    山东大学校级三好学生 （2021.09）
+                                                                    </option>
+                                                                    <option value="2021山东大学军训优秀学员">
+                                                                    山东大学军训优秀学员（2021.09）
+                                                                    </option>
+                                                                    <option value="2021山东大学优秀学生干部">
+                                                                    山东大学优秀学生干部（2021.09）
+                                                                    </option>
+                                                                    <option value="2021国家奖学金">
+                                                                    国家奖学金（2021.12）
+                                                                    </option>
+                                                                    <option value="2021国家励志奖学金">
+                                                                    国家励志奖学金（2021.12）
+                                                                    </option>
+                                                                    <option value="2021山东大学校长奖">
+                                                                    山东大学校长奖（2021.12）
+                                                                    </option>
+                                                                    <option value="2021山东大学十佳班长">
+                                                                    山东大学十佳班长（2021.12）
+                                                                    </option>
+                                                                    <option value="2022山东省高等学校优秀学生">
+                                                                    山东省高等学校优秀学生（2022.04）
+                                                                    </option>
+                                                                    <option value="2022山东省高等学校优秀学生干部">
+                                                                    山东省高等学校优秀学生干部（2022.04）
+                                                                    </option>
+                                                                    <option value="2022山东大学十佳共青团员">
+                                                                    山东大学十佳共青团员（2022.04）
+                                                                    </option>
+                                                                    <option value="2022山东大学优秀共青团员">
+                                                                    山东大学优秀共青团员（2022.05）
+                                                                    </option>
+                                                                    <option value="2022山东大学优秀学生干部">
+                                                                    山东大学优秀学生干部（2022.09）
+                                                                    </option>
+                                                                    <option value="2022山东大学校级三好学生 ">
+                                                                    山东大学校级三好学生 （2022.09）
+                                                                    </option>
+                                                                    <option value="2022山东大学军训优秀学员">
+                                                                    山东大学军训优秀学员（2022.09）
+                                                                    </option>
+                                                                    <option value="2022山东大学特长奖">
+                                                                    山东大学特长奖（2022.09）
+                                                                    </option>
+                                                                    <option value="2022山东大学学业奖 二等">
+                                                                    山东大学学业奖 二等（2022.09）
+                                                                    </option>
+                                                                    <option value="2022山东大学学业奖 三等">
+                                                                    山东大学学业奖 三等（2022.09）
+                                                                    </option>
+                                                                    <option value="2022山东大学学业奖 一等">
+                                                                    山东大学学业奖 一等（2022.09）
+                                                                    </option>
+                                                                    <option value="2021全国大学生电子设计竞赛（本科组）全国壹等奖">
+                                                                        全国大学生电子设计竞赛（本科组）全国壹等奖（2021.12）
+                                                                        </option>
+                                                                        <option value="2021中国国际“互联网+”大学生创新创业大赛金奖">
+                                                                        中国国际“互联网+”大学生创新创业大赛金奖（2021.10 ）
+                                                                        </option>
+                                                                        <option value="2022全国大学生智能汽车竞赛一等奖">
+                                                                        全国大学生智能汽车竞赛一等奖（2022.08）
+                                                                        </option>
+                                                                        <option value="2021全国大学生智能汽车竞赛一等奖">
+                                                                        全国大学生智能汽车竞赛一等奖（2021.09）
+                                                                        </option>
+                                                                        <option value="2022全国大学生节能减排社会实践与科技竞赛一等奖">
+                                                                        全国大学生节能减排社会实践与科技竞赛一等奖（2022.08）
+                                                                        </option>
+                                                                        <option value="2021全国大学生节能减排社会实践与科技竞赛一等奖">
+                                                                        全国大学生节能减排社会实践与科技竞赛一等奖（2021.08）
+                                                                        </option>
+                                                                        <option value="2021全国大学生数学建模竞赛本科组一等奖">
+                                                                        全国大学生数学建模竞赛本科组一等奖（2021.11）
+                                                                        </option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-sm-10 col-sm-offset-1">
+                                            <div class="input-group">
+                                                <span class="input-group input-group-addon">
+                                                    <label>奖项二  </label>
+                                                </span>
+                                                <div class="form-group label-floating" style="width:115px;">
+                                                    <div class="form-group label-floating">
+                                                        <div class="form-group label-floating">
+                                                            <label class="control-label">Award Name</label>
+                                                            <select name="stu_awardname2" class="form-control"
+                                                                    style="width:500px"
+                                                                    required>
+                                                                <option value="无">无</option>
+                                                                <option value="2019山东大学十佳共青团员">
+                                                                    山东大学十佳共青团员（2019.04）
+                                                                    </option>
+                                                                    <option value="2019山东省高等学校优秀学生干部">
+                                                                    山东省高等学校优秀学生干部（2019.04）
+                                                                    </option>
+                                                                    <option value="2019山东省高等学校优秀学生">
+                                                                    山东省高等学校优秀学生（2019.04）
+                                                                    </option>
+                                                                    <option value="2019山东大学优秀共青团员">
+                                                                    山东大学优秀共青团员（2019.05）
+                                                                    </option>
+                                                                    <option value="2019山东大学优秀学生干部">
+                                                                    山东大学优秀学生干部（2019.09）
+                                                                    </option>
+                                                                    <option value="2019山东大学军训优秀学员">
+                                                                    山东大学军训优秀学员（2019.09）
+                                                                    </option>
+                                                                    <option value="2019山东大学学业奖 三等">
+                                                                    山东大学学业奖 三等（2019.09）
+                                                                    </option>
+                                                                    <option value="2019山东大学学业奖 二等">
+                                                                    山东大学学业奖 二等（2019.09）
+                                                                    </option>
+                                                                    <option value="2019山东大学特长奖">
+                                                                    山东大学特长奖（2019.09）
+                                                                    </option>
+                                                                    <option value="2019山东大学学业奖 一等">
+                                                                    山东大学学业奖 一等（2019.09）
+                                                                    </option>
+                                                                    <option value="2019山东大学校级三好学生">
+                                                                    山东大学校级三好学生（2019.09）
+                                                                    </option>
+                                                                    <option value="2019国家奖学金">
+                                                                    国家奖学金（2019.12）
+                                                                    </option>
+                                                                    <option value="2019国家励志奖学金">
+                                                                    国家励志奖学金（2019.12）
+                                                                    </option>
+                                                                    <option value="2019山东大学校长奖">
+                                                                    山东大学校长奖（2019.12）
+                                                                    </option>
+                                                                    <option value="2019山东大学十佳班长">
+                                                                    山东大学十佳班长（2019.12）
+                                                                    </option>
+                                                                    <option value="2020山东大学十佳共青团员">
+                                                                    山东大学十佳共青团员（2020.04）
+                                                                    </option>
+                                                                    <option value="2020山东省高等学校优秀学生干部">
+                                                                    山东省高等学校优秀学生干部（2020.04）
+                                                                    </option>
+                                                                    <option value="2020山东省高等学校优秀学生">
+                                                                    山东省高等学校优秀学生（2020.04）
+                                                                    </option>
+                                                                    <option value="2020山东大学优秀共青团员">
+                                                                    山东大学优秀共青团员（2020.05）
+                                                                    </option>
+                                                                    <option value="2020山东大学学业奖 三等">
+                                                                    山东大学学业奖 三等（2020.09）
+                                                                    </option>
+                                                                    <option value="2020山东大学学业奖 二等">
+                                                                    山东大学学业奖 二等（2020.09）
+                                                                    </option>
+                                                                    <option value="2020山东大学学业奖 一等">
+                                                                    山东大学学业奖 一等（2020.09）
+                                                                    </option>
+                                                                    <option value="2020山东大学特长奖">
+                                                                    山东大学特长奖（2020.09）
+                                                                    </option>
+                                                                    <option value="2020山东大学校级三好学生">
+                                                                    山东大学校级三好学生（2020.09）
+                                                                    </option>
+                                                                    <option value="2020山东大学优秀学生干部">
+                                                                    山东大学优秀学生干部（2020.09）
+                                                                    </option>
+                                                                    <option value="2020国家奖学金">
+                                                                    国家奖学金（2020.12）
+                                                                    </option>
+                                                                    <option value="2020国家励志奖学金">
+                                                                    国家励志奖学金（2020.12）
+                                                                    </option>
+                                                                    <option value="2020山东大学校长奖">
+                                                                    山东大学校长奖（2020.12）
+                                                                    </option>
+                                                                    <option value="2020山东大学十佳班长">
+                                                                    山东大学十佳班长（2020.12）
+                                                                    </option>
+                                                                    <option value="2021山东省高等学校优秀学生干部">
+                                                                    山东省高等学校优秀学生干部（2021.04）
+                                                                    </option>
+                                                                    <option value="2021山东大学十佳共青团员">
+                                                                    山东大学十佳共青团员（2021.04）
+                                                                    </option>
+                                                                    <option value="2021山东省高等学校优秀学生">
+                                                                    山东省高等学校优秀学生（2021.04）
+                                                                    </option>
+                                                                    <option value="2021山东大学优秀共青团员">
+                                                                    山东大学优秀共青团员（2021.05）
+                                                                    </option>
+                                                                    <option value="2021山东大学学业奖 二等">
+                                                                    山东大学学业奖 二等（2021.09）
+                                                                    </option>
+                                                                    <option value="2021山东大学学业奖 一等">
+                                                                    山东大学学业奖 一等（2021.09）
+                                                                    </option>
+                                                                    <option value="2021山东大学学业奖 三等">
+                                                                    山东大学学业奖 三等（2021.09）
+                                                                    </option>
+                                                                    <option value="2021山东大学特长奖">
+                                                                    山东大学特长奖（2021.09）
+                                                                    </option>
+                                                                    <option value="2021山东大学校级三好学生 ">
+                                                                    山东大学校级三好学生 （2021.09）
+                                                                    </option>
+                                                                    <option value="2021山东大学军训优秀学员">
+                                                                    山东大学军训优秀学员（2021.09）
+                                                                    </option>
+                                                                    <option value="2021山东大学优秀学生干部">
+                                                                    山东大学优秀学生干部（2021.09）
+                                                                    </option>
+                                                                    <option value="2021国家奖学金">
+                                                                    国家奖学金（2021.12）
+                                                                    </option>
+                                                                    <option value="2021国家励志奖学金">
+                                                                    国家励志奖学金（2021.12）
+                                                                    </option>
+                                                                    <option value="2021山东大学校长奖">
+                                                                    山东大学校长奖（2021.12）
+                                                                    </option>
+                                                                    <option value="2021山东大学十佳班长">
+                                                                    山东大学十佳班长（2021.12）
+                                                                    </option>
+                                                                    <option value="2022山东省高等学校优秀学生">
+                                                                    山东省高等学校优秀学生（2022.04）
+                                                                    </option>
+                                                                    <option value="2022山东省高等学校优秀学生干部">
+                                                                    山东省高等学校优秀学生干部（2022.04）
+                                                                    </option>
+                                                                    <option value="2022山东大学十佳共青团员">
+                                                                    山东大学十佳共青团员（2022.04）
+                                                                    </option>
+                                                                    <option value="2022山东大学优秀共青团员">
+                                                                    山东大学优秀共青团员（2022.05）
+                                                                    </option>
+                                                                    <option value="2022山东大学优秀学生干部">
+                                                                    山东大学优秀学生干部（2022.09）
+                                                                    </option>
+                                                                    <option value="2022山东大学校级三好学生 ">
+                                                                    山东大学校级三好学生 （2022.09）
+                                                                    </option>
+                                                                    <option value="2022山东大学军训优秀学员">
+                                                                    山东大学军训优秀学员（2022.09）
+                                                                    </option>
+                                                                    <option value="2022山东大学特长奖">
+                                                                    山东大学特长奖（2022.09）
+                                                                    </option>
+                                                                    <option value="2022山东大学学业奖 二等">
+                                                                    山东大学学业奖 二等（2022.09）
+                                                                    </option>
+                                                                    <option value="2022山东大学学业奖 三等">
+                                                                    山东大学学业奖 三等（2022.09）
+                                                                    </option>
+                                                                    <option value="2022山东大学学业奖 一等">
+                                                                    山东大学学业奖 一等（2022.09）
+                                                                    </option>
+                                                                    <option value="2021全国大学生电子设计竞赛（本科组）全国壹等奖">
+                                                                        全国大学生电子设计竞赛（本科组）全国壹等奖（2021.12）
+                                                                        </option>
+                                                                        <option value="2021中国国际“互联网+”大学生创新创业大赛金奖">
+                                                                        中国国际“互联网+”大学生创新创业大赛金奖（2021.10 ）
+                                                                        </option>
+                                                                        <option value="2022全国大学生智能汽车竞赛一等奖">
+                                                                        全国大学生智能汽车竞赛一等奖（2022.08）
+                                                                        </option>
+                                                                        <option value="2021全国大学生智能汽车竞赛一等奖">
+                                                                        全国大学生智能汽车竞赛一等奖（2021.09）
+                                                                        </option>
+                                                                        <option value="2022全国大学生节能减排社会实践与科技竞赛一等奖">
+                                                                        全国大学生节能减排社会实践与科技竞赛一等奖（2022.08）
+                                                                        </option>
+                                                                        <option value="2021全国大学生节能减排社会实践与科技竞赛一等奖">
+                                                                        全国大学生节能减排社会实践与科技竞赛一等奖（2021.08）
+                                                                        </option>
+                                                                        <option value="2021全国大学生数学建模竞赛本科组一等奖">
+                                                                        全国大学生数学建模竞赛本科组一等奖（2021.11）
+                                                                        </option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-sm-10 col-sm-offset-1">
+                                            <div class="input-group">
+                                                <span class="input-group input-group-addon">
+                                                    <label>奖项三</label>
+                                                </span>
+                                                <div class="form-group label-floating" style="width:115px;">
+                                                    <div class="form-group label-floating">
+                                                        <div class="form-group label-floating">
+                                                            <label class="control-label">Award Name</label>
+                                                            <select name="stu_awardname3" class="form-control"
+                                                                    style="width:500px"
+                                                                    required>
+                                                                <option value="无">无</option>
+                                                                <option value="2019山东大学十佳共青团员">
+                                                                    山东大学十佳共青团员（2019.04）
+                                                                    </option>
+                                                                    <option value="2019山东省高等学校优秀学生干部">
+                                                                    山东省高等学校优秀学生干部（2019.04）
+                                                                    </option>
+                                                                    <option value="2019山东省高等学校优秀学生">
+                                                                    山东省高等学校优秀学生（2019.04）
+                                                                    </option>
+                                                                    <option value="2019山东大学优秀共青团员">
+                                                                    山东大学优秀共青团员（2019.05）
+                                                                    </option>
+                                                                    <option value="2019山东大学优秀学生干部">
+                                                                    山东大学优秀学生干部（2019.09）
+                                                                    </option>
+                                                                    <option value="2019山东大学军训优秀学员">
+                                                                    山东大学军训优秀学员（2019.09）
+                                                                    </option>
+                                                                    <option value="2019山东大学学业奖 三等">
+                                                                    山东大学学业奖 三等（2019.09）
+                                                                    </option>
+                                                                    <option value="2019山东大学学业奖 二等">
+                                                                    山东大学学业奖 二等（2019.09）
+                                                                    </option>
+                                                                    <option value="2019山东大学特长奖">
+                                                                    山东大学特长奖（2019.09）
+                                                                    </option>
+                                                                    <option value="2019山东大学学业奖 一等">
+                                                                    山东大学学业奖 一等（2019.09）
+                                                                    </option>
+                                                                    <option value="2019山东大学校级三好学生">
+                                                                    山东大学校级三好学生（2019.09）
+                                                                    </option>
+                                                                    <option value="2019国家奖学金">
+                                                                    国家奖学金（2019.12）
+                                                                    </option>
+                                                                    <option value="2019国家励志奖学金">
+                                                                    国家励志奖学金（2019.12）
+                                                                    </option>
+                                                                    <option value="2019山东大学校长奖">
+                                                                    山东大学校长奖（2019.12）
+                                                                    </option>
+                                                                    <option value="2019山东大学十佳班长">
+                                                                    山东大学十佳班长（2019.12）
+                                                                    </option>
+                                                                    <option value="2020山东大学十佳共青团员">
+                                                                    山东大学十佳共青团员（2020.04）
+                                                                    </option>
+                                                                    <option value="2020山东省高等学校优秀学生干部">
+                                                                    山东省高等学校优秀学生干部（2020.04）
+                                                                    </option>
+                                                                    <option value="2020山东省高等学校优秀学生">
+                                                                    山东省高等学校优秀学生（2020.04）
+                                                                    </option>
+                                                                    <option value="2020山东大学优秀共青团员">
+                                                                    山东大学优秀共青团员（2020.05）
+                                                                    </option>
+                                                                    <option value="2020山东大学学业奖 三等">
+                                                                    山东大学学业奖 三等（2020.09）
+                                                                    </option>
+                                                                    <option value="2020山东大学学业奖 二等">
+                                                                    山东大学学业奖 二等（2020.09）
+                                                                    </option>
+                                                                    <option value="2020山东大学学业奖 一等">
+                                                                    山东大学学业奖 一等（2020.09）
+                                                                    </option>
+                                                                    <option value="2020山东大学特长奖">
+                                                                    山东大学特长奖（2020.09）
+                                                                    </option>
+                                                                    <option value="2020山东大学校级三好学生">
+                                                                    山东大学校级三好学生（2020.09）
+                                                                    </option>
+                                                                    <option value="2020山东大学优秀学生干部">
+                                                                    山东大学优秀学生干部（2020.09）
+                                                                    </option>
+                                                                    <option value="2020国家奖学金">
+                                                                    国家奖学金（2020.12）
+                                                                    </option>
+                                                                    <option value="2020国家励志奖学金">
+                                                                    国家励志奖学金（2020.12）
+                                                                    </option>
+                                                                    <option value="2020山东大学校长奖">
+                                                                    山东大学校长奖（2020.12）
+                                                                    </option>
+                                                                    <option value="2020山东大学十佳班长">
+                                                                    山东大学十佳班长（2020.12）
+                                                                    </option>
+                                                                    <option value="2021山东省高等学校优秀学生干部">
+                                                                    山东省高等学校优秀学生干部（2021.04）
+                                                                    </option>
+                                                                    <option value="2021山东大学十佳共青团员">
+                                                                    山东大学十佳共青团员（2021.04）
+                                                                    </option>
+                                                                    <option value="2021山东省高等学校优秀学生">
+                                                                    山东省高等学校优秀学生（2021.04）
+                                                                    </option>
+                                                                    <option value="2021山东大学优秀共青团员">
+                                                                    山东大学优秀共青团员（2021.05）
+                                                                    </option>
+                                                                    <option value="2021山东大学学业奖 二等">
+                                                                    山东大学学业奖 二等（2021.09）
+                                                                    </option>
+                                                                    <option value="2021山东大学学业奖 一等">
+                                                                    山东大学学业奖 一等（2021.09）
+                                                                    </option>
+                                                                    <option value="2021山东大学学业奖 三等">
+                                                                    山东大学学业奖 三等（2021.09）
+                                                                    </option>
+                                                                    <option value="2021山东大学特长奖">
+                                                                    山东大学特长奖（2021.09）
+                                                                    </option>
+                                                                    <option value="2021山东大学校级三好学生 ">
+                                                                    山东大学校级三好学生 （2021.09）
+                                                                    </option>
+                                                                    <option value="2021山东大学军训优秀学员">
+                                                                    山东大学军训优秀学员（2021.09）
+                                                                    </option>
+                                                                    <option value="2021山东大学优秀学生干部">
+                                                                    山东大学优秀学生干部（2021.09）
+                                                                    </option>
+                                                                    <option value="2021国家奖学金">
+                                                                    国家奖学金（2021.12）
+                                                                    </option>
+                                                                    <option value="2021国家励志奖学金">
+                                                                    国家励志奖学金（2021.12）
+                                                                    </option>
+                                                                    <option value="2021山东大学校长奖">
+                                                                    山东大学校长奖（2021.12）
+                                                                    </option>
+                                                                    <option value="2021山东大学十佳班长">
+                                                                    山东大学十佳班长（2021.12）
+                                                                    </option>
+                                                                    <option value="2022山东省高等学校优秀学生">
+                                                                    山东省高等学校优秀学生（2022.04）
+                                                                    </option>
+                                                                    <option value="2022山东省高等学校优秀学生干部">
+                                                                    山东省高等学校优秀学生干部（2022.04）
+                                                                    </option>
+                                                                    <option value="2022山东大学十佳共青团员">
+                                                                    山东大学十佳共青团员（2022.04）
+                                                                    </option>
+                                                                    <option value="2022山东大学优秀共青团员">
+                                                                    山东大学优秀共青团员（2022.05）
+                                                                    </option>
+                                                                    <option value="2022山东大学优秀学生干部">
+                                                                    山东大学优秀学生干部（2022.09）
+                                                                    </option>
+                                                                    <option value="2022山东大学校级三好学生 ">
+                                                                    山东大学校级三好学生 （2022.09）
+                                                                    </option>
+                                                                    <option value="2022山东大学军训优秀学员">
+                                                                    山东大学军训优秀学员（2022.09）
+                                                                    </option>
+                                                                    <option value="2022山东大学特长奖">
+                                                                    山东大学特长奖（2022.09）
+                                                                    </option>
+                                                                    <option value="2022山东大学学业奖 二等">
+                                                                    山东大学学业奖 二等（2022.09）
+                                                                    </option>
+                                                                    <option value="2022山东大学学业奖 三等">
+                                                                    山东大学学业奖 三等（2022.09）
+                                                                    </option>
+                                                                    <option value="2022山东大学学业奖 一等">
+                                                                    山东大学学业奖 一等（2022.09）
+                                                                    </option>
+                                                                    <option value="2021全国大学生电子设计竞赛（本科组）全国壹等奖">
+                                                                        全国大学生电子设计竞赛（本科组）全国壹等奖（2021.12）
+                                                                        </option>
+                                                                        <option value="2021中国国际“互联网+”大学生创新创业大赛金奖">
+                                                                        中国国际“互联网+”大学生创新创业大赛金奖（2021.10 ）
+                                                                        </option>
+                                                                        <option value="2022全国大学生智能汽车竞赛一等奖">
+                                                                        全国大学生智能汽车竞赛一等奖（2022.08）
+                                                                        </option>
+                                                                        <option value="2021全国大学生智能汽车竞赛一等奖">
+                                                                        全国大学生智能汽车竞赛一等奖（2021.09）
+                                                                        </option>
+                                                                        <option value="2022全国大学生节能减排社会实践与科技竞赛一等奖">
+                                                                        全国大学生节能减排社会实践与科技竞赛一等奖（2022.08）
+                                                                        </option>
+                                                                        <option value="2021全国大学生节能减排社会实践与科技竞赛一等奖">
+                                                                        全国大学生节能减排社会实践与科技竞赛一等奖（2021.08）
+                                                                        </option>
+                                                                        <option value="2021全国大学生数学建模竞赛本科组一等奖">
+                                                                        全国大学生数学建模竞赛本科组一等奖（2021.11）
+                                                                        </option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-sm-10 col-sm-offset-1">
+                                            <div class="input-group">
+                                                <span class="input-group input-group-addon">
+                                                    <label>奖项四</label>
+                                                </span>
+                                                <div class="form-group label-floating" style="width:115px;">
+                                                    <div class="form-group label-floating">
+                                                        <div class="form-group label-floating">
+                                                            <label class="control-label">Award Name</label>
+                                                            <select name="stu_awardname4" class="form-control"
+                                                                    style="width:500px"
+                                                                    required>
+                                                                <option value="无">无</option>
+                                                                <option value="2019山东大学十佳共青团员">
+                                                                    山东大学十佳共青团员（2019.04）
+                                                                    </option>
+                                                                    <option value="2019山东省高等学校优秀学生干部">
+                                                                    山东省高等学校优秀学生干部（2019.04）
+                                                                    </option>
+                                                                    <option value="2019山东省高等学校优秀学生">
+                                                                    山东省高等学校优秀学生（2019.04）
+                                                                    </option>
+                                                                    <option value="2019山东大学优秀共青团员">
+                                                                    山东大学优秀共青团员（2019.05）
+                                                                    </option>
+                                                                    <option value="2019山东大学优秀学生干部">
+                                                                    山东大学优秀学生干部（2019.09）
+                                                                    </option>
+                                                                    <option value="2019山东大学军训优秀学员">
+                                                                    山东大学军训优秀学员（2019.09）
+                                                                    </option>
+                                                                    <option value="2019山东大学学业奖 三等">
+                                                                    山东大学学业奖 三等（2019.09）
+                                                                    </option>
+                                                                    <option value="2019山东大学学业奖 二等">
+                                                                    山东大学学业奖 二等（2019.09）
+                                                                    </option>
+                                                                    <option value="2019山东大学特长奖">
+                                                                    山东大学特长奖（2019.09）
+                                                                    </option>
+                                                                    <option value="2019山东大学学业奖 一等">
+                                                                    山东大学学业奖 一等（2019.09）
+                                                                    </option>
+                                                                    <option value="2019山东大学校级三好学生">
+                                                                    山东大学校级三好学生（2019.09）
+                                                                    </option>
+                                                                    <option value="2019国家奖学金">
+                                                                    国家奖学金（2019.12）
+                                                                    </option>
+                                                                    <option value="2019国家励志奖学金">
+                                                                    国家励志奖学金（2019.12）
+                                                                    </option>
+                                                                    <option value="2019山东大学校长奖">
+                                                                    山东大学校长奖（2019.12）
+                                                                    </option>
+                                                                    <option value="2019山东大学十佳班长">
+                                                                    山东大学十佳班长（2019.12）
+                                                                    </option>
+                                                                    <option value="2020山东大学十佳共青团员">
+                                                                    山东大学十佳共青团员（2020.04）
+                                                                    </option>
+                                                                    <option value="2020山东省高等学校优秀学生干部">
+                                                                    山东省高等学校优秀学生干部（2020.04）
+                                                                    </option>
+                                                                    <option value="2020山东省高等学校优秀学生">
+                                                                    山东省高等学校优秀学生（2020.04）
+                                                                    </option>
+                                                                    <option value="2020山东大学优秀共青团员">
+                                                                    山东大学优秀共青团员（2020.05）
+                                                                    </option>
+                                                                    <option value="2020山东大学学业奖 三等">
+                                                                    山东大学学业奖 三等（2020.09）
+                                                                    </option>
+                                                                    <option value="2020山东大学学业奖 二等">
+                                                                    山东大学学业奖 二等（2020.09）
+                                                                    </option>
+                                                                    <option value="2020山东大学学业奖 一等">
+                                                                    山东大学学业奖 一等（2020.09）
+                                                                    </option>
+                                                                    <option value="2020山东大学特长奖">
+                                                                    山东大学特长奖（2020.09）
+                                                                    </option>
+                                                                    <option value="2020山东大学校级三好学生">
+                                                                    山东大学校级三好学生（2020.09）
+                                                                    </option>
+                                                                    <option value="2020山东大学优秀学生干部">
+                                                                    山东大学优秀学生干部（2020.09）
+                                                                    </option>
+                                                                    <option value="2020国家奖学金">
+                                                                    国家奖学金（2020.12）
+                                                                    </option>
+                                                                    <option value="2020国家励志奖学金">
+                                                                    国家励志奖学金（2020.12）
+                                                                    </option>
+                                                                    <option value="2020山东大学校长奖">
+                                                                    山东大学校长奖（2020.12）
+                                                                    </option>
+                                                                    <option value="2020山东大学十佳班长">
+                                                                    山东大学十佳班长（2020.12）
+                                                                    </option>
+                                                                    <option value="2021山东省高等学校优秀学生干部">
+                                                                    山东省高等学校优秀学生干部（2021.04）
+                                                                    </option>
+                                                                    <option value="2021山东大学十佳共青团员">
+                                                                    山东大学十佳共青团员（2021.04）
+                                                                    </option>
+                                                                    <option value="2021山东省高等学校优秀学生">
+                                                                    山东省高等学校优秀学生（2021.04）
+                                                                    </option>
+                                                                    <option value="2021山东大学优秀共青团员">
+                                                                    山东大学优秀共青团员（2021.05）
+                                                                    </option>
+                                                                    <option value="2021山东大学学业奖 二等">
+                                                                    山东大学学业奖 二等（2021.09）
+                                                                    </option>
+                                                                    <option value="2021山东大学学业奖 一等">
+                                                                    山东大学学业奖 一等（2021.09）
+                                                                    </option>
+                                                                    <option value="2021山东大学学业奖 三等">
+                                                                    山东大学学业奖 三等（2021.09）
+                                                                    </option>
+                                                                    <option value="2021山东大学特长奖">
+                                                                    山东大学特长奖（2021.09）
+                                                                    </option>
+                                                                    <option value="2021山东大学校级三好学生 ">
+                                                                    山东大学校级三好学生 （2021.09）
+                                                                    </option>
+                                                                    <option value="2021山东大学军训优秀学员">
+                                                                    山东大学军训优秀学员（2021.09）
+                                                                    </option>
+                                                                    <option value="2021山东大学优秀学生干部">
+                                                                    山东大学优秀学生干部（2021.09）
+                                                                    </option>
+                                                                    <option value="2021国家奖学金">
+                                                                    国家奖学金（2021.12）
+                                                                    </option>
+                                                                    <option value="2021国家励志奖学金">
+                                                                    国家励志奖学金（2021.12）
+                                                                    </option>
+                                                                    <option value="2021山东大学校长奖">
+                                                                    山东大学校长奖（2021.12）
+                                                                    </option>
+                                                                    <option value="2021山东大学十佳班长">
+                                                                    山东大学十佳班长（2021.12）
+                                                                    </option>
+                                                                    <option value="2022山东省高等学校优秀学生">
+                                                                    山东省高等学校优秀学生（2022.04）
+                                                                    </option>
+                                                                    <option value="2022山东省高等学校优秀学生干部">
+                                                                    山东省高等学校优秀学生干部（2022.04）
+                                                                    </option>
+                                                                    <option value="2022山东大学十佳共青团员">
+                                                                    山东大学十佳共青团员（2022.04）
+                                                                    </option>
+                                                                    <option value="2022山东大学优秀共青团员">
+                                                                    山东大学优秀共青团员（2022.05）
+                                                                    </option>
+                                                                    <option value="2022山东大学优秀学生干部">
+                                                                    山东大学优秀学生干部（2022.09）
+                                                                    </option>
+                                                                    <option value="2022山东大学校级三好学生 ">
+                                                                    山东大学校级三好学生 （2022.09）
+                                                                    </option>
+                                                                    <option value="2022山东大学军训优秀学员">
+                                                                    山东大学军训优秀学员（2022.09）
+                                                                    </option>
+                                                                    <option value="2022山东大学特长奖">
+                                                                    山东大学特长奖（2022.09）
+                                                                    </option>
+                                                                    <option value="2022山东大学学业奖 二等">
+                                                                    山东大学学业奖 二等（2022.09）
+                                                                    </option>
+                                                                    <option value="2022山东大学学业奖 三等">
+                                                                    山东大学学业奖 三等（2022.09）
+                                                                    </option>
+                                                                    <option value="2022山东大学学业奖 一等">
+                                                                    山东大学学业奖 一等（2022.09）
+                                                                    </option>
+                                                                    <option value="2021全国大学生电子设计竞赛（本科组）全国壹等奖">
+                                                                        全国大学生电子设计竞赛（本科组）全国壹等奖（2021.12）
+                                                                        </option>
+                                                                        <option value="2021中国国际“互联网+”大学生创新创业大赛金奖">
+                                                                        中国国际“互联网+”大学生创新创业大赛金奖（2021.10）
+                                                                        </option>
+                                                                        <option value="2022全国大学生智能汽车竞赛一等奖">
+                                                                        全国大学生智能汽车竞赛一等奖（2022.08）
+                                                                        </option>
+                                                                        <option value="2021全国大学生智能汽车竞赛一等奖">
+                                                                        全国大学生智能汽车竞赛一等奖（2021.09）
+                                                                        </option>
+                                                                        <option value="2022全国大学生节能减排社会实践与科技竞赛一等奖">
+                                                                        全国大学生节能减排社会实践与科技竞赛一等奖（2022.08）
+                                                                        </option>
+                                                                        <option value="2021全国大学生节能减排社会实践与科技竞赛一等奖">
+                                                                        全国大学生节能减排社会实践与科技竞赛一等奖（2021.08）
+                                                                        </option>
+                                                                        <option value="2021全国大学生数学建模竞赛本科组一等奖">
+                                                                        全国大学生数学建模竞赛本科组一等奖（2021.11）
+                                                                        </option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="tab-pane" id="reason">
+                                    <div class="row">
+                                        <div class="col-sm-12">
+                                            <h4 class="info-text"> 申请理由 </h4>
+                                        </div>
+                                        <div class="wordCount" id="wordCount">
+                                        <textarea rows="6" name="stu_reason1" class="reasonform"
+                                                  placeholder="请输入你的申请理由（190字至200字）." required></textarea>
+                                            <span class="wordwrap"><var class="word">200</var>/200</span>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="input-group">
+                                                    <span class="input-group input-group-addon">
+                                                        <label>申请日期</label>
+                                                    </span>
+                                            <div class="form-group label-floating" style="width:115px;">
+                                                <label class="control-label">例：2021.1.10</label>
+                                                <input name="stu_date1" type="text" style="width:140px;"
+                                                       required class="form-control">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-12">
+                                            <h4 class="info-text"> 推荐理由 </h4>
+                                        </div>
+                                        <div class="wordCount1" id="wordCount1">
+                                        <textarea rows="4" name="stu_reason2" class="reasonform"
+                                                  placeholder="请输入推荐理由（90字至100字）."></textarea>
+                                            <span class="wordwrap"><var class="word">100</var>/100</span>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="input-group">
+                                                    <span class="input-group input-group-addon">
+                                                        <label>申请日期</label>
+                                                    </span>
+                                            <div class="form-group label-floating" style="width:115px;">
+                                                <label class="control-label">例：2021.1.11</label>
+                                                <input name="stu_date2" type="text" style="width:140px;"
+                                                       required class="form-control">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-12">
+                                            <h4 class="info-text"> 院系意见 </h4>
+                                        </div>
+                                        <div class="wordCount" id="wordCount2">
+                                        <textarea rows="3" name="stu_reason3" class="reasonform"
+                                                  placeholder="请输入院系意见（100字以内）."></textarea>
+                                            <span class="wordwrap"><var class="word">100</var>/100</span>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="input-group">
+                                                    <span class="input-group input-group-addon">
+                                                        <label>申请日期</label>
+                                                    </span>
+                                            <div class="form-group label-floating" style="width:115px;">
+                                                <label class="control-label">例：2021.1.15</label>
+                                                <input name="stu_date3" type="text" style="width:140px;"
+                                                       required class="form-control">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="wizard-footer">
+                                <div class="pull-right">
+                                    <input type='button' class='btn btn-next btn-fill btn-success btn-wd'
+                                           name='next' value='下一页'/>
+                                    <input type='button' class='btn btn-finish btn-fill btn-success btn-wd'
+                                           name='finish' value='提交'
+                                           onclick="if(checkdata()) {submit();}"
+                                    />
+                                </div>
+                                <div class="pull-left">
+                                    <input type='button' class='btn btn-previous btn-fill btn-default btn-wd'
+                                           name='Previous' value='前一页'/>
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
+                        </form>
+                    </div>
+                </div> <!-- wizard container -->
+            </div>
+        </div><!-- end row -->
+    </div> <!--  big container -->
+
+    <div class="footer">
+        <div class="container text-center">
+            Powered by <i class="fa fa-heart heart"></i> <a href="https://ie.wh.sdu.edu.cn/index.htm">Four
+            Corgi</a>.</a>
+        </div>
+    </div>
+</div>
+
+</body>
+<!--   Core JS Files   -->
+<script src="/assets/js/jquery-2.2.4.min.js" type="text/javascript"></script>
+<script src="/assets/js/bootstrap.min.js" type="text/javascript"></script>
+<script src="/assets/js/jquery.bootstrap.js" type="text/javascript"></script>
+
+<!--  Plugin for the Wizard -->
+<script src="/assets/js/material-bootstrap-wizard.js?t=20181002"></script>
+
+<!--  More information about jquery.validate here: http://jqueryvalidation.org/	 -->
+<script src="/assets/js/jquery.validate.min.js"></script>
+
+</html>
